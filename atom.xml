@@ -4,13 +4,61 @@
   <title><![CDATA[Team Neko]]></title>
   <link href="http://teamneko.github.io/atom.xml" rel="self"/>
   <link href="http://teamneko.github.io/"/>
-  <updated>2015-03-05T18:01:36+01:00</updated>
+  <updated>2015-03-05T19:56:50+01:00</updated>
   <id>http://teamneko.github.io/</id>
   <author>
-    <name><![CDATA[Team Neko]]></name>
+    <name><![CDATA[]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Vienna.rb #22]]></title>
+    <link href="http://teamneko.github.io/blog/2015/03/05/vienna-dot-rb-number-22/"/>
+    <updated>2015-03-05T19:42:20+01:00</updated>
+    <id>http://teamneko.github.io/blog/2015/03/05/vienna-dot-rb-number-22</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Meeting]]></title>
+    <link href="http://teamneko.github.io/blog/2015/03/05/first-meeting/"/>
+    <updated>2015-03-05T19:31:40+01:00</updated>
+    <id>http://teamneko.github.io/blog/2015/03/05/first-meeting</id>
+    <content type="html"><![CDATA[<p>Testing Testing, just seeing how this looks.</p>
+
+<h2>Do headers look nice?</h2>
+
+<p>We can include some images of Luca</p>
+
+<p>Some when he was cranky</p>
+
+<center>
+<img src="http://teamneko.github.io/images/Post1/Luca6.png"> 
+</center>
+
+
+<p>and then when we unlocked the secrets to taming this majestic white lion.</p>
+
+<center>
+<img src="http://teamneko.github.io/images/Post1/Luca3.png"> 
+</center>
+
+
+<p>Remember to include fun anecdotes:</p>
+
+<ul>
+<li><p>Plan to talk to Luca</p></li>
+<li><p>Looking at applications</p></li>
+<li><p>Reading team blogs</p></li>
+<li><p>Start the octopress</p></li>
+<li><p>Name panic</p></li>
+<li><p>Faeries are scary</p></li>
+</ul>
+
+]]></content>
+  </entry>
   
 </feed>
