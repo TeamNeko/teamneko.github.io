@@ -14,12 +14,12 @@ We can include some images of Luca
 Some when he was cranky
 
 <center>
-<img src="/images/Meeting1/Luca6.png"> 
+<img src="/images/Post1/Luca6.png"> 
 </center>
 
 and then when we unlocked the secrets to taming this majestic white lion.
 <center>
-<img src="/images/Meeting1/Luca3.png"> 
+<img src="/images/Post1/Luca3.png"> 
 </center>
 Remember to include fun anecdotes:
 
