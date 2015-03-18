@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Team Neko]]></title>
-  <link href="http://teamneko.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: meeting | Team Neko]]></title>
+  <link href="http://teamneko.github.io/blog/categories/meeting/atom.xml" rel="self"/>
   <link href="http://teamneko.github.io/"/>
   <updated>2015-03-18T10:11:54+01:00</updated>
   <id>http://teamneko.github.io/</id>
@@ -12,26 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Vienna.rb #22]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/05/vienna-dot-rb-number-22/"/>
-    <updated>2015-03-05T19:42:20+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/05/vienna-dot-rb-number-22</id>
-    <content type="html"><![CDATA[<p>Include:</p>
-
-<ul>
-<li>Lotus</li>
-<li>Aspects of the project.</li>
-<li>Looking for coaches</li>
-<li>Stephan&rsquo;s talk</li>
-<li>Ramon&rsquo;s talk</li>
-<li>Trello, git or blossom</li>
-<li>Image is on it&rsquo;s side on web because the layout is responsive. On mobile they work perfect. Remove this from the .yml</li>
-</ul>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Our First RGSoC Meeting]]></title>
