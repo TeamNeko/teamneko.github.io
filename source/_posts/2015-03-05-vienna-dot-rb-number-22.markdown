@@ -22,20 +22,22 @@ find out what is expected. Luca was very open to chat to us and we spoke over pi
 in between some talks. It was a pleasure to meet Luca, and the chat with him only
 served to add to our motivation and excitement about what is (possibly) to come!  
 
-The talks that evening were, as always, quite interesting.
+The talks that evening were, as always, quite interesting.  
 
-The first talk was by Stefan Haslinger (Twitter @informatom). *Mr. 100 000 Volts gift-wraps Rubies and Opals*
-
-[..................Pilar I don't remember what this talk was about!...................]
+The first talk was by Stefan Haslinger. *Mr. 100 000 Volts gift-wraps Rubies and Opals*
+This talk was quite informative but I have to admit that it went a teeny bit over
+my head this time. Sometimes the level of information is just that teeny bit out
+of my grasp so I don't fully follow things...YET. What I did follow was very
+interesting!  
 
 Next up was Pilar's brother, Ramon. He presented his talk *How Teaching Kids Made
-Me a Better Developer"
-which he was due to present at concat() in Salzburg the following Saturday. I have
-written about this talk in my post about concat, which I have not yet posted.  
+Me a Better Developer" which he was due to present at concat() in Salzburg the
+following Saturday. I have written about this talk in my post about concat, which
+I have not yet posted.  
 Ramon's talk was great. The subject matter is something that I identify quite a lot
 with, given my background of teaching kids, albeit teaching English rather than
 anything technical. It was wonderful to get some tips on how I can use one area
-to help the other.
+to help the other.  
 
 Then, two wonderful ladies who are applying for summer of code got up to ask if
 anyone present would like to join our list of coaches for the duration of the
@@ -50,11 +52,16 @@ lucky enough to be accepted onto summer of code.
 It's quite humbling that so many people are not just willing, but eager to
 help and support us in this endeavor. It's wonderful inspiration to pay it forward
 and again, more proof that I really should not have been at all nervous the first
-night I ventured to a vienna.rb.
+night I ventured to a vienna.rb.  
 
 Laura Gaetano was the last speaker of the evening, with a talk that opened the
 evening's discussions. The topic was *Github as a Project Management Tool*. The
 talk explained the way in which Laura and her team use Github to track things, and
 the discussion broadened to include experience people have with Trello and
 Blossom. As a beginner in this industry, I found it really helpful to get an overview
-of how to effectively manage projects with some personal feedback thrown in.  
+of how to effectively manage projects with some personal feedback thrown in.
+
+This was a particularly encouraging edition of Vienna.rb. Excitement is building
+for our upcoming application!  
+
+Shelly
