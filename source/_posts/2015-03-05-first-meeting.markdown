@@ -23,3 +23,5 @@ We went with Team Neko as our meting was taking place at Café Neko, the local c
 `After hours of stealing glances at the adorable inhabitants of the cat café, we were finally able to tame Luca, a majestic maine coon who secretly loves chin scratches.`
 
 All in all, we had a very successful evening. Together we looked at the projects, talked about which ones we liked and which ones we felt capable of doing. We also had a look at last year's team's blogs to get some inspiration (*and it worked! We started this blog, didn't we?*) Best of all, we got to know a lot about each other. In a lot of aspects we compliment each other and in others we're so similar that it's uncanny. I have a feeling we're gonna make a great team!
+
+~Pilar
