@@ -4,7 +4,7 @@
   <title><![CDATA[Team Neko]]></title>
   <link href="http://teamneko.github.io/atom.xml" rel="self"/>
   <link href="http://teamneko.github.io/"/>
-  <updated>2015-03-20T15:07:24+01:00</updated>
+  <updated>2015-03-21T16:40:23+01:00</updated>
   <id>http://teamneko.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -14,11 +14,38 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Saturday: Lovebirds and Applications]]></title>
+    <link href="http://teamneko.github.io/blog/2015/03/21/saturday-lovebirds-and-applications/"/>
+    <updated>2015-03-21T16:34:11+01:00</updated>
+    <id>http://teamneko.github.io/blog/2015/03/21/saturday-lovebirds-and-applications</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Starting Javascript]]></title>
+    <link href="http://teamneko.github.io/blog/2015/03/20/starting-javascript/"/>
+    <updated>2015-03-20T15:41:04+01:00</updated>
+    <id>http://teamneko.github.io/blog/2015/03/20/starting-javascript</id>
+    <content type="html"><![CDATA[<ul>
+<li>First impression, this is pretty much like try ruby! especially .length</li>
+<li>I liked it so much I added it to my dailies on HabitRPG</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[(octo)Pressing Problems]]></title>
     <link href="http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems/"/>
     <updated>2015-03-20T15:02:49+01:00</updated>
     <id>http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<ul>
+<li>cheat sheet on commands</li>
+<li>ssh keys</li>
+<li>merging???</li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -44,7 +71,7 @@ our supervisor for RGSoC) came over and introduced me to Pilar. We started talki
 about how we both want to apply for summer of code, our goals, and I think the
 conversation also wandered towards favourite video games.</p>
 
-<p>But, I digress. Flash forward to Vienna.rb #22. This came the day after Team Neko&rsquo;S
+<p>But, I digress. Flash forward to Vienna.rb #22. This came the day after Team Neko&rsquo;s
 first meeting in Cafe Neko. As Pilar mentioned in the previous post, we were both
 excited to meet Luca Guidi to ask some questions about the Lotus project and to
 find out what is expected. Luca was very open to chat to us and we spoke over pizza
@@ -81,7 +108,7 @@ lucky enough to be accepted onto summer of code.</p>
 <p>It&rsquo;s quite humbling that so many people are not just willing, but eager to
 help and support us in this endeavor. It&rsquo;s wonderful inspiration to pay it forward
 and again, more proof that I really should not have been at all nervous the first
-night I ventured to a vienna.rb.</p>
+night I ventured to a vienna.rb!</p>
 
 <p>Laura Gaetano was the last speaker of the evening, with a talk that opened the
 evening&rsquo;s discussions. The topic was <em>Github as a Project Management Tool</em>. The
