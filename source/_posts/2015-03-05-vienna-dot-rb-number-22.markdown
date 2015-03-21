@@ -15,7 +15,7 @@ our supervisor for RGSoC) came over and introduced me to Pilar. We started talki
 about how we both want to apply for summer of code, our goals, and I think the
 conversation also wandered towards favourite video games.  
 
-But, I digress. Flash forward to Vienna.rb #22. This came the day after Team Neko'S
+But, I digress. Flash forward to Vienna.rb #22. This came the day after Team Neko's
 first meeting in Cafe Neko. As Pilar mentioned in the previous post, we were both
 excited to meet Luca Guidi to ask some questions about the Lotus project and to
 find out what is expected. Luca was very open to chat to us and we spoke over pizza
@@ -52,7 +52,7 @@ lucky enough to be accepted onto summer of code.
 It's quite humbling that so many people are not just willing, but eager to
 help and support us in this endeavor. It's wonderful inspiration to pay it forward
 and again, more proof that I really should not have been at all nervous the first
-night I ventured to a vienna.rb.  
+night I ventured to a vienna.rb!  
 
 Laura Gaetano was the last speaker of the evening, with a talk that opened the
 evening's discussions. The topic was *Github as a Project Management Tool*. The
