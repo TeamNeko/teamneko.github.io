@@ -7,3 +7,4 @@ categories:
 ---
 - First impression, this is pretty much like try ruby! especially .length
 - I liked it so much I added it to my dailies on HabitRPG
+-  likes that it tests you on things from last chapter without giving you the answer!
