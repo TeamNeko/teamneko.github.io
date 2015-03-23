@@ -4,7 +4,7 @@
   <title><![CDATA[Team Neko]]></title>
   <link href="http://teamneko.github.io/atom.xml" rel="self"/>
   <link href="http://teamneko.github.io/"/>
-  <updated>2015-03-21T16:40:23+01:00</updated>
+  <updated>2015-03-23T16:54:07+01:00</updated>
   <id>http://teamneko.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -30,6 +30,7 @@
     <content type="html"><![CDATA[<ul>
 <li>First impression, this is pretty much like try ruby! especially .length</li>
 <li>I liked it so much I added it to my dailies on HabitRPG</li>
+<li>likes that it tests you on things from last chapter without giving you the answer!</li>
 </ul>
 
 ]]></content>
@@ -54,7 +55,47 @@
     <link href="http://teamneko.github.io/blog/2015/03/20/a-flood-of-good-news/"/>
     <updated>2015-03-20T12:09:16+01:00</updated>
     <id>http://teamneko.github.io/blog/2015/03/20/a-flood-of-good-news</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>We are getting quite a lot of encouraging news already, even though we are only
+in the first stages of things.</p>
+
+<p>First off was our experience with Wirsing. I&rsquo;ve mentioned it before, but at the
+last Vienna.rb myself and Pilar got up to ask the other rubyists present if
+anyone would be interested in coaching us. Clemens from Wirsing was kind enough
+to offer, so we emailed with him the following day. Not only was he enthusiastic
+to coach us, but so were the other members of Wirsing! They have offered to be a
+coaching company for us in every aspect other than providing desks - this being that
+they work out of a co-working space here in Vienna.
+Fortunately for us, we have been offered desks in a different co-working space,
+so this works out quite well! Wirsing only work on projects that they love, and
+this is often with a focus on environmental or sociological issues. Their company
+tagline is &ldquo;Software for a better future&rdquo; which really is a great starting point
+to have.</p>
+
+<p>We have been in contact with Jan Lehnardt, the mentor for the Hoodie project in
+rgsoc. A lot of things in my life happen due to fortuitous timing. At concat, I
+sat beside a fellow with a rather impressive beard. I was introduced to him and
+we briefly spoke, and then a few minutes later he got an email confirming Hoodie
+for RGSoC. I told him about myself and Pilar&rsquo;s upcoming application and asked him
+all about the project, what it entails, and whether it is suitable for beginners.
+If I hadn&rsquo;t been siting next to him at that moment I might not have ended up
+speaking to him about RGSoC at all.
+I was lucky enough to meet several other people from Hoodie that day too, they&rsquo;re all
+really great people and I love the ethos of the company. They give a detailed
+explanation on their <a href="http://hood.ie/about/">about page</a> but the basic gist could
+be summarised in this particular paragraph;</p>
+
+<blockquote><p>The reason why Hoodie exists is that everyone involved in this project wants to
+help make the web a better place for everyone, and everyone of us is convinced
+that web development should be accessible to as many people as possible.</p></blockquote>
+
+<p>They have a big focus on diversity and inclusiveness, something that is so
+important, but not always a given.</p>
+
+<p>All in all, we have quite a lot of great things going our way already. I really
+hope this streak continues and that we get accepted for RGSoC. It really would be
+wonderful to work with so many enthusiastic, intelligent, and lovely people!</p>
+
+<p>Shelly</p>
 ]]></content>
   </entry>
   
