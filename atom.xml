@@ -4,7 +4,7 @@
   <title><![CDATA[Team Neko]]></title>
   <link href="http://teamneko.github.io/atom.xml" rel="self"/>
   <link href="http://teamneko.github.io/"/>
-  <updated>2015-03-23T16:54:07+01:00</updated>
+  <updated>2015-03-23T18:02:35+01:00</updated>
   <id>http://teamneko.github.io/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -12,43 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Saturday: Lovebirds and Applications]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/21/saturday-lovebirds-and-applications/"/>
-    <updated>2015-03-21T16:34:11+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/21/saturday-lovebirds-and-applications</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Starting Javascript]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/20/starting-javascript/"/>
-    <updated>2015-03-20T15:41:04+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/20/starting-javascript</id>
-    <content type="html"><![CDATA[<ul>
-<li>First impression, this is pretty much like try ruby! especially .length</li>
-<li>I liked it so much I added it to my dailies on HabitRPG</li>
-<li>likes that it tests you on things from last chapter without giving you the answer!</li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[(octo)Pressing Problems]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems/"/>
-    <updated>2015-03-20T15:02:49+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems</id>
-    <content type="html"><![CDATA[<ul>
-<li>cheat sheet on commands</li>
-<li>ssh keys</li>
-<li>merging???</li>
-</ul>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Flood of Good News]]></title>
