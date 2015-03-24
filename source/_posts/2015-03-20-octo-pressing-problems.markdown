@@ -8,4 +8,9 @@ published: false
 ---
 - cheat sheet on commands
 - ssh keys
+<<<<<<< HEAD
 - merging???
+=======
+- merging??? 
+- cheat sheet image
+>>>>>>> 6dd0cbdadc3242eb3c00aeb5e5449374fe06691e
