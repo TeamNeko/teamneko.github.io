@@ -8,3 +8,4 @@ categories:
 - cheat sheet on commands
 - ssh keys
 - merging??? 
+- cheat sheet image
