@@ -5,7 +5,7 @@
 url: http://teamneko.github.io
 title: Team Neko
 subtitle: We're Shelly and Pilar, and this is our temporary team blog for RGSoC!
-author:
+author: Shelly Coen and Pilar Huidobro
 simple_search: https://www.google.com/search
 description:
 
@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: summeroftessie@gmail.com
 
 # Logo
 logo: portrait.png
@@ -73,7 +73,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: TeamTessie
 twitter_tweet_button: true
 
 # Google +1
