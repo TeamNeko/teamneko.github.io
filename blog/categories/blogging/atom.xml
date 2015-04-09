@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blogging | Team Neko]]></title>
   <link href="http://teamneko.github.io/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://teamneko.github.io/"/>
-  <updated>2015-04-09T11:11:00+02:00</updated>
+  <updated>2015-04-09T17:34:38+02:00</updated>
   <id>http://teamneko.github.io/</id>
   <author>
     <name><![CDATA[Shelly Coen and Pilar Huidobro]]></name>
@@ -38,7 +38,7 @@
 
 <p>The reason was that was such a terrible mistake was that, of course, in the mean time, Shelly had contributed posts of her own. This meant that I had unwittingly caused a monstrous merge problem, which, to make matters worse, I had no idea how to deal with.</p>
 
-<p>After many struggles, the solution we applied was to make a new folder, clone the repository onto there, move all the edited markdown folders somewhere else (thank goodness I had only edited markdown files!), <code>git stash</code>, move all the edited folders into the newly cloned repository folder, add, commit and finally push. It was a pretty crazy solution, and there&rsquo;s probably a better way to do it, but it did the job!</p>
+<p>After many struggles, the solution we applied was to make a new folder, clone the repository onto there, move all the edited markdown folders somewhere else (thank goodness I had only edited markdown files!), move all the edited folders into the newly cloned repository folder, add, commit and finally push. It was a pretty crazy solution, and there&rsquo;s probably a better way to do it, but it did the job!</p>
 
 <p>Shelly and I kept running into obstacles on our git journey, and I feel like it&rsquo;s never been more applicable but practice does make perfect. I feel like the more we use it, the less both of us have been breaking things.</p>
 

@@ -1,0 +1,196 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Saturday: Lovebirds and Applications  | Team Neko</title>
+
+<meta name="author" content="Shelly Coen and Pilar Huidobro"> 
+
+<meta name="description" content="Yesterday, Shelly came over to my house, got to meet my parents, my dog and, the newest members of our family, Boco and Pusheen, whom I had just &hellip;"> <meta name="keywords" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Team Neko" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	
+</head>
+
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Team Neko</a></h1>
+<h4>We&#8217;re Shelly and Pilar, and this is our temporary team blog for RGSoC!</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:teamneko.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Saturday: Lovebirds and Applications</h2>
+	<div class="entry-content"><p>Yesterday, Shelly came over to my house, got to meet my parents, my dog and, the newest members of our family,  Boco and Pusheen, whom I had just picked up from a breeder that very morning.</p>
+
+<center>
+<img src="/images/Saturdaylovebirds/Fred.jpg" width="30%" height="30%"hspace="10"> <img src="/images/Saturdaylovebirds/birbs.jpg" width="30%" height="30%"hspace="10"> </center>
+
+
+<p>She came mid afternoon and we were able to get a lot done for the team:</p>
+
+<h3>Solve the deploy problem</h3>
+
+<p>I had already run into this problem several times, having my personal blog, the ruby habits blog and this blog all on my computer (and then having to go through solving this problem <strong>again</strong> after installing bootcamp on my computer and restoring it to my last backup). So this is an annoying problem where you can&rsquo;t deploy because something&rsquo;s up with your _deploy folder. Shelly was having this problem so I told her that when she came over we could look at it and solve it together since I&rsquo;d gone through that problem several times.
+Usually the solution is as follows:</p>
+
+<ul>
+<li><code>rm -rf _deploy</code> <em>within your git folder</em> to remove an existing deploy folder, if it exists, which isn&rsquo;t working</li>
+<li><code>mkdir _deploy</code>  to make a new deploy folder<code>cd _deploy</code> to move into the new deploy folder</li>
+<li><code>git init</code>to initialise this folder, that way git knows to keep track of this folder too</li>
+<li><code>git remote add origin (your repo url)</code>sets the origin as the default branch</li>
+<li><code>git config branch.master.remote origin</code>after this the deploy folder should be set up and you should be able to deploy using <code>rake deploy</code></li>
+</ul>
+
+
+<h3>Settle our team name</h3>
+
+<p>Unfortunately, as adorable and fitting as Team Neko was as a team name, it was taken by a convention organisation team, and so it was time to pick a new team name. Linking back to a  conversation we had on <a href="http://teamneko.github.io/blog/2015/03/05/first-meeting/">our first meeting</a> we thought it would be great to have something linked to a mythological creature, we both like them and thought it would be a nice way to include something we love in into our work.</p>
+
+<p>We were very happy thinking along the lines of Team Kelpie until we realized people might think we ourselves were the kelpies&hellip; <em>Seriously? I was just thinking how cute our logo could be! Shelly and I each with a strand of kelp in our hair hugging a kelpie!</em> It was at this point that I may or may not have brought up Nessie and how my favourite creature growing up was Tessie from Earthbound. Since Tessie is a real life cultural thing and not just something from a game, we thought it would make a nice team name while still being unique and different to Nessie. <em>Although Tessie is from Lake Tahoe, we decided to stick to that name because as adorable as &ldquo;<strong>D</strong>essie&rdquo; would be, the <strong>D</strong>anube isn&rsquo;t a lake and <strong>N</strong>eusiedler See would have given us <strong>N</strong>essie again&hellip;</em></p>
+
+<blockquote><p>And that&rsquo;s how the name Team Tessie came about. We love mythological creatures, <strong>we love dinosaurs</strong> and we love Tessie, need I say more?</p></blockquote>
+
+<h3>Get started on our application</h3>
+
+<p>Even though there was still quite a bit of time to go, we thought it would be a good idea for us to start filling out the application. We started off by adding ourselves in as a team, adding that we would like to work on Hoodie, fantastic team of coaches and Jan, who would be our mentor in the project (Shelly met him and a whole bunch of the Hoodie gang at .concat() and said they were absolutely lovely). We started working on our personal student but quickly got stuck on writing &ldquo;About Me&#8221;s. <em>Did everyone else feel awkward answering that payment question, or was it just me?</em> We decided it would be best if we finished answering our individual parts another day by ourselves and proceeded to sort out other things, like our current availability  schedules so we could keep meeting up to work on stuff together, our team twitter and e-mail account, etc&hellip;</p>
+
+<p>All in all, it was a very productive day and I&rsquo;m glad that Shelly was able to come out here. We even thought of a bunch of fun things, such as the possibility of coming here on Fridays to work on our project/BBQ.</p>
+
+<p>~Pilar</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-21T16:34:11+01:00" pubdate data-updated="true"></time></div>
+	
+
+
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> &#8212;>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2015
+
+    Shelly Coen and Pilar Huidobro
+
+<br>
+Powered by Octopress.
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>

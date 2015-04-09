@@ -9,7 +9,7 @@
 
 <meta name="author" content="Shelly Coen and Pilar Huidobro"> 
 
-<meta name="description" content="After speaking speaking to Jan and Luca, we learned that the two projects we were interested in pursuing might involve Javascript, or at least we &hellip;"> <meta name="keywords" content="">
+<meta name="description" content="Yesterday, Shelly came over to my house, got to meet my parents, my dog and, the newest members of our family, Boco and Pusheen, whom I had just &hellip;"> <meta name="keywords" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -97,6 +97,78 @@ $(document).ready(
 </header>
 
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/03/21/saturday-lovebirds-and-applications/">
+		
+			Saturday: Lovebirds and Applications</a>
+	</h2>
+	<div class="entry-content">
+		<p>Yesterday, Shelly came over to my house, got to meet my parents, my dog and, the newest members of our family,  Boco and Pusheen, whom I had just picked up from a breeder that very morning.</p>
+
+<center>
+<img src="/images/Saturdaylovebirds/Fred.jpg" width="30%" height="30%"hspace="10"> <img src="/images/Saturdaylovebirds/birbs.jpg" width="30%" height="30%"hspace="10"> </center>
+
+
+<p>She came mid afternoon and we were able to get a lot done for the team:</p>
+
+<h3>Solve the deploy problem</h3>
+
+<p>I had already run into this problem several times, having my personal blog, the ruby habits blog and this blog all on my computer (and then having to go through solving this problem <strong>again</strong> after installing bootcamp on my computer and restoring it to my last backup). So this is an annoying problem where you can&rsquo;t deploy because something&rsquo;s up with your _deploy folder. Shelly was having this problem so I told her that when she came over we could look at it and solve it together since I&rsquo;d gone through that problem several times.
+Usually the solution is as follows:</p>
+
+<ul>
+<li><code>rm -rf _deploy</code> <em>within your git folder</em> to remove an existing deploy folder, if it exists, which isn&rsquo;t working</li>
+<li><code>mkdir _deploy</code>  to make a new deploy folder<code>cd _deploy</code> to move into the new deploy folder</li>
+<li><code>git init</code>to initialise this folder, that way git knows to keep track of this folder too</li>
+<li><code>git remote add origin (your repo url)</code>sets the origin as the default branch</li>
+<li><code>git config branch.master.remote origin</code>after this the deploy folder should be set up and you should be able to deploy using <code>rake deploy</code></li>
+</ul>
+
+
+<h3>Settle our team name</h3>
+
+<p>Unfortunately, as adorable and fitting as Team Neko was as a team name, it was taken by a convention organisation team, and so it was time to pick a new team name. Linking back to a  conversation we had on <a href="http://teamneko.github.io/blog/2015/03/05/first-meeting/">our first meeting</a> we thought it would be great to have something linked to a mythological creature, we both like them and thought it would be a nice way to include something we love in into our work.</p>
+
+<p>We were very happy thinking along the lines of Team Kelpie until we realized people might think we ourselves were the kelpies&hellip; <em>Seriously? I was just thinking how cute our logo could be! Shelly and I each with a strand of kelp in our hair hugging a kelpie!</em> It was at this point that I may or may not have brought up Nessie and how my favourite creature growing up was Tessie from Earthbound. Since Tessie is a real life cultural thing and not just something from a game, we thought it would make a nice team name while still being unique and different to Nessie. <em>Although Tessie is from Lake Tahoe, we decided to stick to that name because as adorable as &ldquo;<strong>D</strong>essie&rdquo; would be, the <strong>D</strong>anube isn&rsquo;t a lake and <strong>N</strong>eusiedler See would have given us <strong>N</strong>essie again&hellip;</em></p>
+
+<blockquote><p>And that&rsquo;s how the name Team Tessie came about. We love mythological creatures, <strong>we love dinosaurs</strong> and we love Tessie, need I say more?</p></blockquote>
+
+<h3>Get started on our application</h3>
+
+<p>Even though there was still quite a bit of time to go, we thought it would be a good idea for us to start filling out the application. We started off by adding ourselves in as a team, adding that we would like to work on Hoodie, fantastic team of coaches and Jan, who would be our mentor in the project (Shelly met him and a whole bunch of the Hoodie gang at .concat() and said they were absolutely lovely). We started working on our personal student but quickly got stuck on writing &ldquo;About Me&#8221;s. <em>Did everyone else feel awkward answering that payment question, or was it just me?</em> We decided it would be best if we finished answering our individual parts another day by ourselves and proceeded to sort out other things, like our current availability  schedules so we could keep meeting up to work on stuff together, our team twitter and e-mail account, etc&hellip;</p>
+
+<p>All in all, it was a very productive day and I&rsquo;m glad that Shelly was able to come out here. We even thought of a bunch of fun things, such as the possibility of coming here on Fridays to work on our project/BBQ.</p>
+
+<p>~Pilar</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-21T16:34:11+01:00" pubdate data-updated="true"></time></div>
+	
+
+
+	
+</div></article>
 
 
     <article class="post">
@@ -259,7 +331,7 @@ wonderful to work with so many enthusiastic, intelligent, and lovely people!</p>
 
 <p>The reason was that was such a terrible mistake was that, of course, in the mean time, Shelly had contributed posts of her own. This meant that I had unwittingly caused a monstrous merge problem, which, to make matters worse, I had no idea how to deal with.</p>
 
-<p>After many struggles, the solution we applied was to make a new folder, clone the repository onto there, move all the edited markdown folders somewhere else (thank goodness I had only edited markdown files!), <code>git stash</code>, move all the edited folders into the newly cloned repository folder, add, commit and finally push. It was a pretty crazy solution, and there&rsquo;s probably a better way to do it, but it did the job!</p>
+<p>After many struggles, the solution we applied was to make a new folder, clone the repository onto there, move all the edited markdown folders somewhere else (thank goodness I had only edited markdown files!), move all the edited folders into the newly cloned repository folder, add, commit and finally push. It was a pretty crazy solution, and there&rsquo;s probably a better way to do it, but it did the job!</p>
 
 <p>Shelly and I kept running into obstacles on our git journey, and I feel like it&rsquo;s never been more applicable but practice does make perfect. I feel like the more we use it, the less both of us have been breaking things.</p>
 
