@@ -9,7 +9,7 @@ author: Pilar Huidobro
 Yesterday, Shelly came over to my house, got to meet my parents, my dog and, the newest members of our family,  Boco and Pusheen, whom I had just picked up from a breeder that very morning.
 
 <center>
-<img src="/images/Saturdaylovebirds/Fred.jpg" width="30%" height="30%"hspace="10"> <img src="/images/Saturdaylovebirds/birbs.jpg" width="30%" height="30%"hspace="10"> </center>
+<img src="/images/Saturdaylovebirds/fred.jpg" width="30%" height="30%" hspace="10"> <img src="/images/Saturdaylovebirds/birbs.jpg" width="30%" height="30%" hspace="10"> </center>
 
 She came mid afternoon and we were able to get a lot done for the team:
 
