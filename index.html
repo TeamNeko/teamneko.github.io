@@ -1,67 +1,141 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Team Neko</title>
-  <meta name="author" content="">
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>We&#8217;re Shelly and Pilar, and this is our temporary team blog for RGSoC!  | Team Neko</title>
 
-  
-  <meta name="description" content="We are getting quite a lot of encouraging news already, even though we are only
-in the first stages of things. First off was our experience with &hellip;">
-  
+<meta name="author" content="Shelly Coen and Pilar Huidobro"> 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="After speaking speaking to Jan and Luca, we learned that the two projects we were interested in pursuing might involve Javascript, or at least we &hellip;"> <meta name="keywords" content="">
 
-  
-  <link rel="canonical" href="http://teamneko.github.io/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-   <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Team Neko" type="application/atom+xml">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href='http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+	<link href="/atom.xml" rel="alternate" title="Team Neko" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
 
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
 
+          if (id) {
+            el = $('#' + id);
 
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
 
-  
-
-  <style>html{background: url(/images/background.png) no-repeat center center fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}</style>
+	
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-</hgroup>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Team Neko</a></h1>
+<h4>We&#8217;re Shelly and Pilar, and this is our temporary team blog for RGSoC!</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:teamneko.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+
 
 </header>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/20/a-flood-of-good-news/">A Flood of Good News</a></h1>
-    
-    
-      <p class="meta">
-        
+
+	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/03/20/starting-javascript/">
+		
+			Starting Javascript</a>
+	</h2>
+	<div class="entry-content">
+		<p>After speaking speaking to Jan and Luca,  we learned that the two projects we were interested in pursuing might involve Javascript, or at least we would benefit in knowing Javascript if we were to be involved in either. I had a strong interest in learning Javascript after attending an Angular workshop.</p>
+
+<p>So we took the necessary steps: we got <a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts</a> and <a href="http://shop.oreilly.com/product/9780596805531.do">JavaScript: The Definitive Guide</a> and we signed up for the codecademy&rsquo;s <a href="http://www.codecademy.com/tracks/javascript">JavaScript course</a> and we faced this thing head on!</p>
+
+<p>My first impressions of Javascript were very posistive. I really like codecademy&rsquo;s course. It reminded me of going through <a href="http://tryruby.org/levels/1/challenges/0">try ruby</a> when I first attended Rail&rsquo;s Girls St. Pölten (especially <code>string.length</code>). In fact, I liked it so much that I added it to my dailies on Habitrpg (<em>my to do list manager</em>). One of the things I really liked about it was that it had varied learning methods kind of like Duolingo has for languages, for example, besides just having you type in commands to the terminal by copy pasting, it challenges you by not giving you the answer or simply stating, &ldquo;Type this into the terminal: <code>thing to copy into the terminal</code>&rdquo;. I was very pleased when I logged on one morning and the beginning of the chapter I was starting began with a little challenge off of something that had been taught two chapters ago. It was a great recap and shows that this is more than just a tool to copy-paste answers to &ldquo;learn&rdquo; a programming language.</p>
+
+<p>The boolean challenge was the first one I had to get a hint for. Even though I&rsquo;m familiar with boolean logic, I wasn&rsquo;t sure how to use it in Javascript and the explanation didn&rsquo;t really show an example first, so I used a hint and it was clear right away.</p>
+
+<p>There were examples of pre-written code where you have to fix it to do a certain thing, and that felt pretty great because it made me feel like I actually understood what the code was supposed to do. Makes you feel like you get it and it works!</p>
+
+<p>One a side note: when I got to the operators, I just had to know why the &ldquo;equal to&rdquo; and &ldquo;not equal to&rdquo; operator had one &ldquo;=&rdquo; more than C++. As usual, found a really great and interesting answer on <a href="http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons">stack overflow</a>, it&rsquo;s pretty interesting if anyone&rsquo;s curious.</p>
+
+<center>
+<img src="/images/Javascript/MuffinMan.png"> </center>
+
+
+<blockquote><p>Did I mention, I had <strong>ridiculous</strong> amounts of fun doing this course?</p></blockquote>
+
+<p>I would highly recommend the course to anyone wanting to get a small start on JavaScript. It&rsquo;s simplified, but it explains when it is so and does teach the correct syntax as you progress.</p>
+
+<p>~Pilar</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
 
 
 
@@ -73,14 +147,23 @@ in the first stages of things. First off was our experience with &hellip;">
   
 
 
-<time datetime="2015-03-20T12:09:16+01:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
+<time datetime="2015-03-20T15:41:04+01:00" pubdate data-updated="true"></time></div>
+	
 
 
-  <div class="entry-content"><p>We are getting quite a lot of encouraging news already, even though we are only
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/03/20/a-flood-of-good-news/">
+		
+			A Flood of Good News</a>
+	</h2>
+	<div class="entry-content">
+		<p>We are getting quite a lot of encouraging news already, even though we are only
 in the first stages of things.</p>
 
 <p>First off was our experience with Wirsing. I&rsquo;ve mentioned it before, but at the
@@ -121,42 +204,116 @@ hope this streak continues and that we get accepted for RGSoC. It really would b
 wonderful to work with so many enthusiastic, intelligent, and lovely people!</p>
 
 <p>Shelly</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-20T12:09:16+01:00" pubdate data-updated="true"></time></div>
+	
+
+
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/03/20/octo-pressing-problems/">
+		
+			(octo)Pressing Problems</a>
+	</h2>
+	<div class="entry-content">
+		<p>One of the most fun learning experiences I’ve had while working on our Summer of Code application is getting to work with <a href="http://octopress.org/">octopress</a>. I had previously used it a little bit for my <a href="http://althaire.github.io/">personal blog</a>, but I’d mostly just made a couple of posts and with some help, I was able to set up a new layout.</p>
+
+<p>Working on our team was a whole new challenge. We agreed that it would be a better learning experience for us as a team that if we ran into any trouble, we’d help each other out.</p>
+
+<p>As fun as it has been to learn octopress, I have run into loads of problems! It&rsquo;s not just octopress either, it&rsquo;s git! Practice makes perfect though, right?</p>
+
+<p>The first silly problem I ran into was that I forgot my SSH key password. It shouldn&rsquo;t be that big a deal, right? Just make a new one? <em>It wasn&rsquo;t working though&hellip;</em> I tried a couple of times to get it to work but it just wouldn&rsquo;t. Finally I had to give in and just watch despairingly as my awesome Github streak reset (keeping it up for 6 days was a huge personal achievement), this wasn&rsquo;t going to be a problem that I would solve in one day.</p>
+
+<p>Naturally, the next morning I just tried the <a href="https://help.github.com/articles/generating-ssh-keys/">basic steps</a> I&rsquo;d been following the day before and&hellip; <em>it worked.</em> Why? We shall never know, it&rsquo;s just one of those things.</p>
+
+<center>
+<img src="/images/ProblemsPost/codeworksmeme.jpg"> </center>
+
+
+<p>The great news was that it worked and I could continue working, right? <strong>Wrong.</strong> I had naïvely thought that I could keep working on the posts I had to do, even without git, because sitting around and waiting for it to fix itself was a huge waste of time.</p>
+
+<blockquote><p>That was a huge mistake and it is one I won&rsquo;t be making <em>ever</em> again.</p></blockquote>
+
+<p>The reason was that was such a terrible mistake was that, of course, in the mean time, Shelly had contributed posts of her own. This meant that I had unwittingly caused a monstrous merge problem, which, to make matters worse, I had no idea how to deal with.</p>
+
+<p>After many struggles, the solution we applied was to make a new folder, clone the repository onto there, move all the edited markdown folders somewhere else (thank goodness I had only edited markdown files!), <code>git stash</code>, move all the edited folders into the newly cloned repository folder, add, commit and finally push. It was a pretty crazy solution, and there&rsquo;s probably a better way to do it, but it did the job!</p>
+
+<p>Shelly and I kept running into obstacles on our git journey, and I feel like it&rsquo;s never been more applicable but practice does make perfect. I feel like the more we use it, the less both of us have been breaking things.</p>
+
+<p>Just to make sure we don&rsquo;t run into any snags, I made us a little cheat sheet:</p>
+
+<center>
+<img src="/images/graphics/octopresscheatsheet.png"> </center>
+
+
+<p>This whole experience brought back memories of solving puzzles as a kid, or getting through a tough dungeon in a Zelda game. I think we just need to keep practising, but it&rsquo;s been a fun experience running into these troubles and having to find solutions.</p>
+
+<p>~Pilar</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-20T00:00:00+01:00" pubdate data-updated="true"></time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/blogging/'>blogging</a>, <a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/learning/'>learning</a>
+
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/05/vienna-dot-rb-number-22/">Vienna.rb #22</a></h1>
-    
-    
-      <p class="meta">
-        
+	
+</div></article>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-03-05T19:42:20+01:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Vienna.rb is always quite a fun evening. The first time I (Shelly) went, I went
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/03/07/vienna-dot-rb-number-22/">
+		
+			Vienna.rb #22</a>
+	</h2>
+	<div class="entry-content">
+		<p>Vienna.rb is always quite a fun evening. The first time I (Shelly) went, I went
 alone and promptly squirrelled myself away in a corner to listen to the talks.<br/>
 I needn&rsquo;t have been so nervous! Everyone at vienna.rb is super friendly and welcoming.
 On this particular first night, Floor Drees (who has so very kindly offered to be
@@ -214,23 +371,14 @@ of how to effectively manage projects with some personal feedback thrown in.</p>
 for our upcoming application!</p>
 
 <p>Shelly</p>
-</div>
-  
-  
+
+		
+		
+	</div>
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/03/05/first-meeting/">Our First RGSoC Meeting</a></h1>
-    
-    
-      <p class="meta">
-        
+<div class="meta">
+	<div class="date">
 
 
 
@@ -242,14 +390,23 @@ for our upcoming application!</p>
   
 
 
-<time datetime="2015-03-05T19:31:40+01:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
+<time datetime="2015-03-07T15:32:20+01:00" pubdate data-updated="true"></time></div>
+	
 
 
-  <div class="entry-content"><p>After the hustle and bustle of February (more like getting <a href="http://rubyhabits.github.io">Ruby Habits</a> off the ground) was slowly dying down, we finally took our first step and set up a date for us to sit down and talk about our plans for this year&rsquo;s <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a>.</p>
+	
+</div></article>
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/blog/2015/03/05/first-meeting/">
+		
+			Our First RGSoC Meeting</a>
+	</h2>
+	<div class="entry-content">
+		<p>After the hustle and bustle of February (more like getting <a href="http://rubyhabits.github.io">Ruby Habits</a> off the ground) was slowly dying down, we finally took our first step and set up a date for us to sit down and talk about our plans for this year&rsquo;s <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a>.</p>
 
 <p>I came to the meeting very excited to tell Shelly that I had just seen that <em>Lotus</em> had gotten accepted as a project for RGSoC. I had seen <em>Luca Guidi</em> give a talk on Lotus at a previous Vienna.rb meeting, and I remember thinking at the time,</p>
 
@@ -271,133 +428,58 @@ for our upcoming application!</p>
 <p>All in all, we had a very successful evening. Together we looked at the projects, talked about which ones we liked and which ones we felt capable of doing. We also had a look at last year&rsquo;s team&rsquo;s blogs to get some inspiration (<em>and it worked! We started this blog, didn&rsquo;t we?</em>) Best of all, we got to know a lot about each other. In a lot of aspects we compliment each other and in others we&rsquo;re so similar that it&rsquo;s uncanny. I have a feeling we&rsquo;re gonna make a great team!</p>
 
 <p>~Pilar</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-05T19:31:40+01:00" pubdate data-updated="true"></time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/meeting/'>meeting</a>
+
 </div>
-  
-  
 
 
-    </article>
-  
-  <div class="pagination">
+	
+</div></article>
+
+<nav id="pagenavi">
     
-    <a href="/blog/archives/"> Archives </a>
     
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section id="titles">
-  <a href="http://teamneko.github.io" title="Team Neko"><img id="logo" src="http://teamneko.github.io/images/portrait.png" /></a>
-  <h1 id="site_title"><a href="http://teamneko.github.io" title="Team Neko">Team Neko</a></h1>
-  <h3 id="site_subtitle">We&#8217;re Shelly and Pilar, and this is our temporary team blog for RGSoC!</h3>
-</section>
+    <div class="center"><a href="/archives">Blog Archives</a></div>
+</nav></div>
+	<footer id="footer" class="inner">Copyright &copy; 2015
 
-<section id="menu">
-  <ul>
-    <li><i class="fa fa-home fa-lg"></i><a href="http://teamneko.github.io"> Home </a></li>
-    <li><i class="fa fa-calendar fa-lg"></i><a href="http://teamneko.github.io/blog/archives/"> Archives </a></li>
-    <li><i class="fa fa-user fa-lg"></i><a href="http://teamneko.github.io/about/"> About </a></li>
-    <li><i class="fa fa-rss fa-lg"></i><a href="http://teamneko.github.io/atom.xml"> Feed </a></li>
-  </ul>
-</section>
+    Shelly Coen and Pilar Huidobro
 
-<section id="social">
-  
-
-  
-
-  
-
-  
-    <a href="https://github.com/TeamNeko" title="TeamNeko"><i class="fa fa-github fa-2x"></i></a>
-  
-
-  
-
-  
-</section>
-
-
-<section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2015/03/20/a-flood-of-good-news/">A Flood of Good News</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/05/vienna-dot-rb-number-22/">Vienna.rb #22</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/03/05/first-meeting/">Our First RGSoC Meeting</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/TeamNeko">@TeamNeko</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'TeamNeko',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2015 -  -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
+<br>
+Powered by Octopress.
 </footer>
-  
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
 
 
 

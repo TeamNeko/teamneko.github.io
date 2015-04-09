@@ -4,14 +4,43 @@
   <title><![CDATA[Team Neko]]></title>
   <link href="http://teamneko.github.io/atom.xml" rel="self"/>
   <link href="http://teamneko.github.io/"/>
-  <updated>2015-03-24T09:45:25+01:00</updated>
+  <updated>2015-04-09T11:11:00+02:00</updated>
   <id>http://teamneko.github.io/</id>
   <author>
-    <name><![CDATA[]]></name>
-    
+    <name><![CDATA[Shelly Coen and Pilar Huidobro]]></name>
+    <email><![CDATA[summeroftessie@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Starting Javascript]]></title>
+    <link href="http://teamneko.github.io/blog/2015/03/20/starting-javascript/"/>
+    <updated>2015-03-20T15:41:04+01:00</updated>
+    <id>http://teamneko.github.io/blog/2015/03/20/starting-javascript</id>
+    <content type="html"><![CDATA[<p>After speaking speaking to Jan and Luca,  we learned that the two projects we were interested in pursuing might involve Javascript, or at least we would benefit in knowing Javascript if we were to be involved in either. I had a strong interest in learning Javascript after attending an Angular workshop.</p>
+
+<p>So we took the necessary steps: we got <a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts</a> and <a href="http://shop.oreilly.com/product/9780596805531.do">JavaScript: The Definitive Guide</a> and we signed up for the codecademy&rsquo;s <a href="http://www.codecademy.com/tracks/javascript">JavaScript course</a> and we faced this thing head on!</p>
+
+<p>My first impressions of Javascript were very posistive. I really like codecademy&rsquo;s course. It reminded me of going through <a href="http://tryruby.org/levels/1/challenges/0">try ruby</a> when I first attended Rail&rsquo;s Girls St. Pölten (especially <code>string.length</code>). In fact, I liked it so much that I added it to my dailies on Habitrpg (<em>my to do list manager</em>). One of the things I really liked about it was that it had varied learning methods kind of like Duolingo has for languages, for example, besides just having you type in commands to the terminal by copy pasting, it challenges you by not giving you the answer or simply stating, &ldquo;Type this into the terminal: <code>thing to copy into the terminal</code>&rdquo;. I was very pleased when I logged on one morning and the beginning of the chapter I was starting began with a little challenge off of something that had been taught two chapters ago. It was a great recap and shows that this is more than just a tool to copy-paste answers to &ldquo;learn&rdquo; a programming language.</p>
+
+<p>The boolean challenge was the first one I had to get a hint for. Even though I&rsquo;m familiar with boolean logic, I wasn&rsquo;t sure how to use it in Javascript and the explanation didn&rsquo;t really show an example first, so I used a hint and it was clear right away.</p>
+
+<p>There were examples of pre-written code where you have to fix it to do a certain thing, and that felt pretty great because it made me feel like I actually understood what the code was supposed to do. Makes you feel like you get it and it works!</p>
+
+<p>One a side note: when I got to the operators, I just had to know why the &ldquo;equal to&rdquo; and &ldquo;not equal to&rdquo; operator had one &ldquo;=&rdquo; more than C++. As usual, found a really great and interesting answer on <a href="http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons">stack overflow</a>, it&rsquo;s pretty interesting if anyone&rsquo;s curious.</p>
+
+<center>
+<img src="http://teamneko.github.io/images/Javascript/MuffinMan.png"> </center>
+
+
+<blockquote><p>Did I mention, I had <strong>ridiculous</strong> amounts of fun doing this course?</p></blockquote>
+
+<p>I would highly recommend the course to anyone wanting to get a small start on JavaScript. It&rsquo;s simplified, but it explains when it is so and does teach the correct syntax as you progress.</p>
+
+<p>~Pilar</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Flood of Good News]]></title>
@@ -63,10 +92,51 @@ wonderful to work with so many enthusiastic, intelligent, and lovely people!</p>
   </entry>
   
   <entry>
+    <title type="html"><![CDATA[(octo)Pressing Problems]]></title>
+    <link href="http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems/"/>
+    <updated>2015-03-20T00:00:00+01:00</updated>
+    <id>http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems</id>
+    <content type="html"><![CDATA[<p>One of the most fun learning experiences I’ve had while working on our Summer of Code application is getting to work with <a href="http://octopress.org/">octopress</a>. I had previously used it a little bit for my <a href="http://althaire.github.io/">personal blog</a>, but I’d mostly just made a couple of posts and with some help, I was able to set up a new layout.</p>
+
+<p>Working on our team was a whole new challenge. We agreed that it would be a better learning experience for us as a team that if we ran into any trouble, we’d help each other out.</p>
+
+<p>As fun as it has been to learn octopress, I have run into loads of problems! It&rsquo;s not just octopress either, it&rsquo;s git! Practice makes perfect though, right?</p>
+
+<p>The first silly problem I ran into was that I forgot my SSH key password. It shouldn&rsquo;t be that big a deal, right? Just make a new one? <em>It wasn&rsquo;t working though&hellip;</em> I tried a couple of times to get it to work but it just wouldn&rsquo;t. Finally I had to give in and just watch despairingly as my awesome Github streak reset (keeping it up for 6 days was a huge personal achievement), this wasn&rsquo;t going to be a problem that I would solve in one day.</p>
+
+<p>Naturally, the next morning I just tried the <a href="https://help.github.com/articles/generating-ssh-keys/">basic steps</a> I&rsquo;d been following the day before and&hellip; <em>it worked.</em> Why? We shall never know, it&rsquo;s just one of those things.</p>
+
+<center>
+<img src="http://teamneko.github.io/images/ProblemsPost/codeworksmeme.jpg"> </center>
+
+
+<p>The great news was that it worked and I could continue working, right? <strong>Wrong.</strong> I had naïvely thought that I could keep working on the posts I had to do, even without git, because sitting around and waiting for it to fix itself was a huge waste of time.</p>
+
+<blockquote><p>That was a huge mistake and it is one I won&rsquo;t be making <em>ever</em> again.</p></blockquote>
+
+<p>The reason was that was such a terrible mistake was that, of course, in the mean time, Shelly had contributed posts of her own. This meant that I had unwittingly caused a monstrous merge problem, which, to make matters worse, I had no idea how to deal with.</p>
+
+<p>After many struggles, the solution we applied was to make a new folder, clone the repository onto there, move all the edited markdown folders somewhere else (thank goodness I had only edited markdown files!), <code>git stash</code>, move all the edited folders into the newly cloned repository folder, add, commit and finally push. It was a pretty crazy solution, and there&rsquo;s probably a better way to do it, but it did the job!</p>
+
+<p>Shelly and I kept running into obstacles on our git journey, and I feel like it&rsquo;s never been more applicable but practice does make perfect. I feel like the more we use it, the less both of us have been breaking things.</p>
+
+<p>Just to make sure we don&rsquo;t run into any snags, I made us a little cheat sheet:</p>
+
+<center>
+<img src="http://teamneko.github.io/images/graphics/octopresscheatsheet.png"> </center>
+
+
+<p>This whole experience brought back memories of solving puzzles as a kid, or getting through a tough dungeon in a Zelda game. I think we just need to keep practising, but it&rsquo;s been a fun experience running into these troubles and having to find solutions.</p>
+
+<p>~Pilar</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Vienna.rb #22]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/05/vienna-dot-rb-number-22/"/>
-    <updated>2015-03-05T19:42:20+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/05/vienna-dot-rb-number-22</id>
+    <link href="http://teamneko.github.io/blog/2015/03/07/vienna-dot-rb-number-22/"/>
+    <updated>2015-03-07T15:32:20+01:00</updated>
+    <id>http://teamneko.github.io/blog/2015/03/07/vienna-dot-rb-number-22</id>
     <content type="html"><![CDATA[<p>Vienna.rb is always quite a fun evening. The first time I (Shelly) went, I went
 alone and promptly squirrelled myself away in a corner to listen to the talks.<br/>
 I needn&rsquo;t have been so nervous! Everyone at vienna.rb is super friendly and welcoming.

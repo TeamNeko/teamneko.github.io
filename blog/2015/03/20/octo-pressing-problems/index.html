@@ -1,0 +1,198 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>(octo)Pressing Problems  | Team Neko</title>
+
+<meta name="author" content="Shelly Coen and Pilar Huidobro"> 
+
+<meta name="description" content="One of the most fun learning experiences I’ve had while working on our Summer of Code application is getting to work with octopress. I had previously &hellip;"> <meta name="keywords" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Team Neko" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	
+</head>
+
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Team Neko</a></h1>
+<h4>We&#8217;re Shelly and Pilar, and this is our temporary team blog for RGSoC!</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:teamneko.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">(octo)Pressing Problems</h2>
+	<div class="entry-content"><p>One of the most fun learning experiences I’ve had while working on our Summer of Code application is getting to work with <a href="http://octopress.org/">octopress</a>. I had previously used it a little bit for my <a href="http://althaire.github.io/">personal blog</a>, but I’d mostly just made a couple of posts and with some help, I was able to set up a new layout.</p>
+
+<p>Working on our team was a whole new challenge. We agreed that it would be a better learning experience for us as a team that if we ran into any trouble, we’d help each other out.</p>
+
+<p>As fun as it has been to learn octopress, I have run into loads of problems! It&rsquo;s not just octopress either, it&rsquo;s git! Practice makes perfect though, right?</p>
+
+<p>The first silly problem I ran into was that I forgot my SSH key password. It shouldn&rsquo;t be that big a deal, right? Just make a new one? <em>It wasn&rsquo;t working though&hellip;</em> I tried a couple of times to get it to work but it just wouldn&rsquo;t. Finally I had to give in and just watch despairingly as my awesome Github streak reset (keeping it up for 6 days was a huge personal achievement), this wasn&rsquo;t going to be a problem that I would solve in one day.</p>
+
+<p>Naturally, the next morning I just tried the <a href="https://help.github.com/articles/generating-ssh-keys/">basic steps</a> I&rsquo;d been following the day before and&hellip; <em>it worked.</em> Why? We shall never know, it&rsquo;s just one of those things.</p>
+
+<center>
+<img src="/images/ProblemsPost/codeworksmeme.jpg"> </center>
+
+
+<p>The great news was that it worked and I could continue working, right? <strong>Wrong.</strong> I had naïvely thought that I could keep working on the posts I had to do, even without git, because sitting around and waiting for it to fix itself was a huge waste of time.</p>
+
+<blockquote><p>That was a huge mistake and it is one I won&rsquo;t be making <em>ever</em> again.</p></blockquote>
+
+<p>The reason was that was such a terrible mistake was that, of course, in the mean time, Shelly had contributed posts of her own. This meant that I had unwittingly caused a monstrous merge problem, which, to make matters worse, I had no idea how to deal with.</p>
+
+<p>After many struggles, the solution we applied was to make a new folder, clone the repository onto there, move all the edited markdown folders somewhere else (thank goodness I had only edited markdown files!), <code>git stash</code>, move all the edited folders into the newly cloned repository folder, add, commit and finally push. It was a pretty crazy solution, and there&rsquo;s probably a better way to do it, but it did the job!</p>
+
+<p>Shelly and I kept running into obstacles on our git journey, and I feel like it&rsquo;s never been more applicable but practice does make perfect. I feel like the more we use it, the less both of us have been breaking things.</p>
+
+<p>Just to make sure we don&rsquo;t run into any snags, I made us a little cheat sheet:</p>
+
+<center>
+<img src="/images/graphics/octopresscheatsheet.png"> </center>
+
+
+<p>This whole experience brought back memories of solving puzzles as a kid, or getting through a tough dungeon in a Zelda game. I think we just need to keep practising, but it&rsquo;s been a fun experience running into these troubles and having to find solutions.</p>
+
+<p>~Pilar</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-03-20T00:00:00+01:00" pubdate data-updated="true"></time></div>
+	
+
+<div class="tags">
+
+	<a class='category' href='/blog/categories/blogging/'>blogging</a>, <a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/learning/'>learning</a>
+
+</div>
+
+
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> &#8212;>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2015
+
+    Shelly Coen and Pilar Huidobro
+
+<br>
+Powered by Octopress.
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>
