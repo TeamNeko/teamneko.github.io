@@ -1,0 +1,212 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<script data-cfasync="false" type="text/javascript" src="//use.typekit.net/axj3cfp.js"></script>
+	<script data-cfasync="false" type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<meta charset="utf-8">
+	<title>Foodhack Vienna  | Team Neko</title>
+
+<meta name="author" content="Shelly Coen and Pilar Huidobro"> 
+
+<meta name="description" content="We&rsquo;d been planning this since Aaron, one of our coaches, announced it at the last Vienna.rb meeting, but last weekend it was finally the &hellip;"> <meta name="keywords" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Team Neko" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/jquery.fancybox.pack.js"></script>
+
+<script language="Javascript" type="text/javascript">
+$(document).ready(
+  function() {
+    (function($) {
+      $(".fancybox[data-content-id]").each(function() {
+        this.href = $(this).data('content-id');
+      });
+      $(".fancybox").fancybox({
+        beforeLoad: function() {
+          var el, 
+              id = $(this.element).data('title-id');
+
+          if (id) {
+            el = $('#' + id);
+
+            if (el.length) {
+              this.title = el.html();
+            }
+          }
+          if ($(this).data('content')) {
+            this.content = $(this).data('content');
+          }
+        },
+        helpers: {
+          title: {
+            type: 'inside'
+          }
+        }
+      });
+    })(jQuery);
+  }
+);
+</script>
+
+	
+</head>
+
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Team Neko</a></h1>
+<h4>We&#8217;re Shelly and Pilar, and this is our temporary team blog for RGSoC!</h4>
+<nav id="main-nav"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul>
+	<li><a href="/">Blog</a></li>
+	<li><a href="/about">About</a></li>
+	<li><a href="/portfolio">Portfolio</a></li>
+	<li><a href="/archives">Archive</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="https://www.google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:teamneko.github.io">
+			</form>
+		</div>
+	</div>
+</nav>
+
+
+</header>
+
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Foodhack Vienna</h2>
+	<div class="entry-content"><p>We&rsquo;d been planning this since Aaron, one of our coaches, announced it at the last Vienna.rb meeting, but last weekend it was finally the <a href="http://foodhack.wirsing.io/">Foodhack Vienna</a>. Although it already sounded like loads of fun and helped a good cause, our main reason for joining was to we could have our first try at working together as a team on a project with a time limit. Best of all, all our coaches were gonna be there, so why not go for it?</p>
+
+<blockquote><p>I was super excited! This was gonna be my first hackathon ever. I didn&rsquo;t even realise there were going to be prizes, as cheesy as this is gonna sound, I thought that getting to work with my team and contribute to something was enough of a prize.</p></blockquote>
+
+<center>
+<img src="/images/foodhack/firstday.png"> 
+</center>
+
+
+<p>So, I had been to Stockwerk before, last year for Women Tech Makers, but apparently I&rsquo;d been going the wrong away around? I&rsquo;d always walked all the way from Westbahnhof&hellip; Anyway, when we got there an intro and coffee awaited us. The first couple of hours of the hackathon were a little rough because Ramón, Igor, Shelly and I already agreed weeks ago that we wanted to work together, but it seemed the way things were done was that you would pick a challenge and then group according to that. Unfortunately we neither fit into a challenge and seemed to upset others with our decision to work as a team&hellip; It was a little awkward, to be honest, because I think that since this was the first hackathon for Ramón, Shelly and I, we kind of expected a laid back, fun working environment and some of the other participants were a little&hellip;<em>intense</em>&hellip;</p>
+
+<p>We persevered and got assigned <strong>the best</strong> working area. It was really cool because we had a glass wall between us and the kitchen, where we could see the organisers hard at work, cooking <strong>awesome, delicious</strong> food.</p>
+
+<center>
+<img src="/images/foodhack/plan.jpg"> 
+</center>
+
+
+<p>The plan for our app was pretty simple, we designed it as a mobile web app but worked on a responsive web design for it using bootstrap on a rails server. Our product was</p>
+
+<center>
+<h2>All You Can&#8217;t Eat</h2>
+ </center>
+
+
+<p>Ramón had <em>&ldquo;sort of jokingly&rdquo;</em> thrown around the idea of a &ldquo;no food waste party&rdquo; which Shelly and I instantly loved.</p>
+
+<p>The idea was simple, an app where people could organise or inform themselves/RSVP for food parties. Kind of like meetup, but for people with too much food in their fridge, people needing to empty out their fridge or people just looking to hang out and cook yummy things with others.</p>
+
+<p>There was lots to do, so we divided up the jobs based on who wanted to do what:</p>
+
+<p>◻︎ Make the landing page</p>
+
+<p>◻︎ Make the map page</p>
+
+<p>☑︎ Make the party page</p>
+
+<p>◻︎ Make the login page</p>
+
+<p>◻︎ Make the profile page</p>
+
+<p>◻︎ Make the participation page</p>
+
+<p>☑︎ Make the pitch presentation</p>
+
+<p>☑︎ Make the graphics</p>
+
+<p>Note: <em>the ticked off ones are the ones I worked on</em></p>
+
+<center>
+<img src="/images/foodhack/finalday.png"> 
+</center>
+
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2015-04-08T16:49:20+02:00" pubdate data-updated="true"></time></div>
+	
+
+
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+<!---	<a class="addthis_counter addthis_pill_style"></a> &#8212;>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2015
+
+    Shelly Coen and Pilar Huidobro
+
+<br>
+Powered by Octopress.
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>
