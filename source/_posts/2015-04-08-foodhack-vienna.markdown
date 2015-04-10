@@ -29,6 +29,26 @@ Ramón had *"sort of jokingly"* thrown around the idea of a "no food waste party
 
 The idea was simple, an app where people could organise or inform themselves/RSVP for food parties. Kind of like meetup, but for people with too much food in their fridge, people needing to empty out their fridge or people just looking to hang out and cook yummy things with others.
 
+There was lots to do, so we divided up the jobs based on who wanted to do what:
+
+◻︎ Make the landing page
+
+◻︎ Make the map page
+
+☑︎ Make the party page
+
+◻︎ Make the login page
+
+◻︎ Make the profile page
+
+◻︎ Make the participation page
+
+☑︎ Make the pitch presentation
+
+☑︎ Make the graphics
+
+Note: *the ticked off ones are the ones I worked on*
+
 
 <center>
 <img src="/images/foodhack/finalday.png"> 
