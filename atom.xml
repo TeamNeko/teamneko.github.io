@@ -4,7 +4,7 @@
   <title><![CDATA[Team Neko]]></title>
   <link href="http://teamneko.github.io/atom.xml" rel="self"/>
   <link href="http://teamneko.github.io/"/>
-  <updated>2015-04-13T11:27:26+02:00</updated>
+  <updated>2015-04-17T09:46:05+02:00</updated>
   <id>http://teamneko.github.io/</id>
   <author>
     <name><![CDATA[Shelly Coen and Pilar Huidobro]]></name>
@@ -12,67 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Foodhack Vienna]]></title>
-    <link href="http://teamneko.github.io/blog/2015/04/08/foodhack-vienna/"/>
-    <updated>2015-04-08T16:49:20+02:00</updated>
-    <id>http://teamneko.github.io/blog/2015/04/08/foodhack-vienna</id>
-    <content type="html"><![CDATA[<p>We&rsquo;d been planning this since Aaron, one of our coaches, announced it at the last Vienna.rb meeting, but last weekend it was finally the <a href="http://foodhack.wirsing.io/">Foodhack Vienna</a>. Although it already sounded like loads of fun and helped a good cause, our main reason for joining was to we could have our first try at working together as a team on a project with a time limit. Best of all, all our coaches were gonna be there, so why not go for it?</p>
-
-<blockquote><p>I was super excited! This was gonna be my first hackathon ever. I didn&rsquo;t even realise there were going to be prizes, as cheesy as this is gonna sound, I thought that getting to work with my team and contribute to something was enough of a prize.</p></blockquote>
-
-<center>
-<img src="http://teamneko.github.io/images/foodhack/firstday.png"> 
-</center>
-
-
-<p>So, I had been to Stockwerk before, last year for Women Tech Makers, but apparently I&rsquo;d been going the wrong away around? I&rsquo;d always walked all the way from Westbahnhof&hellip; Anyway, when we got there an intro and coffee awaited us. The first couple of hours of the hackathon were a little rough because Ramón, Igor, Shelly and I already agreed weeks ago that we wanted to work together, but it seemed the way things were done was that you would pick a challenge and then group according to that. Unfortunately we neither fit into a challenge and seemed to upset others with our decision to work as a team&hellip; It was a little awkward, to be honest, because I think that since this was the first hackathon for Ramón, Shelly and I, we kind of expected a laid back, fun working environment and some of the other participants were a little&hellip;<em>intense</em>&hellip;</p>
-
-<p>We persevered and got assigned <strong>the best</strong> working area. It was really cool because we had a glass wall between us and the kitchen, where we could see the organisers hard at work, cooking <strong>awesome, delicious</strong> food.</p>
-
-<center>
-<img src="http://teamneko.github.io/images/foodhack/plan.jpg"> 
-</center>
-
-
-<p>The plan for our app was pretty simple, we designed it as a mobile web app but worked on a responsive web design for it using bootstrap on a rails server. Our product was</p>
-
-<center>
-<h2>All You Can&#8217;t Eat</h2>
- </center>
-
-
-<p>Ramón had <em>&ldquo;sort of jokingly&rdquo;</em> thrown around the idea of a &ldquo;no food waste party&rdquo; which Shelly and I instantly loved.</p>
-
-<p>The idea was simple, an app where people could organise or inform themselves/RSVP for food parties. Kind of like meetup, but for people with too much food in their fridge, people needing to empty out their fridge or people just looking to hang out and cook yummy things with others.</p>
-
-<p>There was lots to do, so we divided up the jobs based on who wanted to do what:</p>
-
-<p>◻︎ Make the landing page</p>
-
-<p>◻︎ Make the map page</p>
-
-<p>☑︎ Make the party page</p>
-
-<p>◻︎ Make the login page</p>
-
-<p>◻︎ Make the profile page</p>
-
-<p>◻︎ Make the participation page</p>
-
-<p>☑︎ Make the pitch presentation</p>
-
-<p>☑︎ Make the graphics</p>
-
-<p>Note: <em>the ticked off ones are the ones I worked on</em></p>
-
-<center>
-<img src="http://teamneko.github.io/images/foodhack/finalday.png"> 
-</center>
-
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Saturday: Lovebirds and Applications]]></title>
