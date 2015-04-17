@@ -4,6 +4,7 @@ title: "Foodhack Vienna"
 date: 2015-04-08 16:49:20 +0200
 comments: true
 categories: 
+published: false
 ---
 We'd been planning this since Aaron, one of our coaches, announced it at the last Vienna.rb meeting, but last weekend it was finally the [Foodhack Vienna](http://foodhack.wirsing.io/). Although it already sounded like loads of fun and helped a good cause, our main reason for joining was to we could have our first try at working together as a team on a project with a time limit. Best of all, all our coaches were gonna be there, so why not go for it? 
 
