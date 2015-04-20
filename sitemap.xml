@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://teamneko.github.io/blog/2015/04/20/project-plan/</loc>
+    <lastmod>2015-04-20T14:01:15+02:00</lastmod>
+  </url>
+  <url>
     <loc>http://teamneko.github.io/blog/2015/03/21/saturday-lovebirds-and-applications/</loc>
     <lastmod>2015-03-21T16:34:11+01:00</lastmod>
   </url>
@@ -25,31 +29,31 @@
     <lastmod>2015-03-05T19:31:40+01:00</lastmod>
   </url>
   <url>
-    <loc>http://teamneko.github.io/blog/</loc>
-    <lastmod>2015-04-17T09:46:05+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://teamneko.github.io/archives/</loc>
-    <lastmod>2015-04-17T09:46:05+02:00</lastmod>
-  </url>
-  <url>
     <loc>http://teamneko.github.io/</loc>
-    <lastmod>2015-04-17T09:46:05+02:00</lastmod>
+    <lastmod>2015-04-20T15:09:41+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://teamneko.github.io/blog/</loc>
+    <lastmod>2015-04-20T15:09:41+02:00</lastmod>
   </url>
   <url>
     <loc>http://teamneko.github.io/blog/archives/</loc>
-    <lastmod>2015-04-17T09:46:05+02:00</lastmod>
+    <lastmod>2015-04-20T15:09:41+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://teamneko.github.io/archives/</loc>
+    <lastmod>2015-04-20T15:09:41+02:00</lastmod>
   </url>
   <url>
     <loc>http://teamneko.github.io/contributions/</loc>
-    <lastmod>2015-04-17T09:46:05+02:00</lastmod>
-  </url>
-  <url>
-    <loc>http://teamneko.github.io/about/</loc>
-    <lastmod>2015-04-17T09:46:05+02:00</lastmod>
+    <lastmod>2015-04-20T15:09:41+02:00</lastmod>
   </url>
   <url>
     <loc>http://teamneko.github.io/project-plan/</loc>
-    <lastmod>2015-04-17T09:46:05+02:00</lastmod>
+    <lastmod>2015-04-20T15:09:41+02:00</lastmod>
+  </url>
+  <url>
+    <loc>http://teamneko.github.io/about/</loc>
+    <lastmod>2015-04-20T15:09:41+02:00</lastmod>
   </url>
 </urlset>
