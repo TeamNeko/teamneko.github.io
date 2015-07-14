@@ -2,9 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://teamneko.github.io
-title: Team Neko
-subtitle: We're Shelly and Pilar, and this is our temporary team blog for RGSoC!
+url: http://teamtessie.github.io
+title: Team Tessie
+subtitle: We're Shelly and Pilar, and this is our team blog for RGSoC!
 author: Shelly Coen and Pilar Huidobro
 simple_search: https://www.google.com/search
 description:
@@ -22,7 +22,7 @@ subscribe_email:
 email: summeroftessie@gmail.com
 
 # Logo
-logo: portrait.png
+logo: Blogheader.png
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -67,7 +67,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user: TeamNeko
+github_user: TeamTessie
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
