@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: meeting | Team Neko]]></title>
-  <link href="http://teamneko.github.io/blog/categories/meeting/atom.xml" rel="self"/>
-  <link href="http://teamneko.github.io/"/>
-  <updated>2015-07-06T11:09:47+02:00</updated>
-  <id>http://teamneko.github.io/</id>
+  <title><![CDATA[Category: meeting | Team Tessie]]></title>
+  <link href="http://teamtessie.github.io/blog/categories/meeting/atom.xml" rel="self"/>
+  <link href="http://teamtessie.github.io/"/>
+  <updated>2015-07-14T12:43:25+02:00</updated>
+  <id>http://teamtessie.github.io/</id>
   <author>
     <name><![CDATA[Shelly Coen and Pilar Huidobro]]></name>
     <email><![CDATA[summeroftessie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Our First RGSoC Meeting]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/05/first-meeting/"/>
+    <link href="http://teamtessie.github.io/blog/2015/03/05/first-meeting/"/>
     <updated>2015-03-05T19:31:40+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/05/first-meeting</id>
+    <id>http://teamtessie.github.io/blog/2015/03/05/first-meeting</id>
     <content type="html"><![CDATA[<p>After the hustle and bustle of February (more like getting <a href="http://rubyhabits.github.io">Ruby Habits</a> off the ground) was slowly dying down, we finally took our first step and set up a date for us to sit down and talk about our plans for this year&rsquo;s <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a>.</p>
 
 <p>I came to the meeting very excited to tell Shelly that I had just seen that <em>Lotus</em> had gotten accepted as a project for RGSoC. I had seen <em>Luca Guidi</em> give a talk on Lotus at a previous Vienna.rb meeting, and I remember thinking at the time,</p>
@@ -31,7 +31,7 @@
 <p>We went with Team Neko as our meting was taking place at Café Neko, the local cat coffeehouse.</p>
 
 <center>
-<img src="http://teamneko.github.io/images/Post1/Luca3.jpg"> 
+<img src="http://teamtessie.github.io/images/Post1/Luca3.jpg"> 
 </center>
 
 

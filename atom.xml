@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Team Neko]]></title>
-  <link href="http://teamneko.github.io/atom.xml" rel="self"/>
-  <link href="http://teamneko.github.io/"/>
-  <updated>2015-07-06T11:09:47+02:00</updated>
-  <id>http://teamneko.github.io/</id>
+  <title><![CDATA[Team Tessie]]></title>
+  <link href="http://teamtessie.github.io/atom.xml" rel="self"/>
+  <link href="http://teamtessie.github.io/"/>
+  <updated>2015-07-14T12:43:25+02:00</updated>
+  <id>http://teamtessie.github.io/</id>
   <author>
     <name><![CDATA[Shelly Coen and Pilar Huidobro]]></name>
     <email><![CDATA[summeroftessie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Project Plan and Ruby Habits]]></title>
-    <link href="http://teamneko.github.io/blog/2015/04/20/project-plan/"/>
+    <link href="http://teamtessie.github.io/blog/2015/04/20/project-plan/"/>
     <updated>2015-04-20T14:01:15+02:00</updated>
-    <id>http://teamneko.github.io/blog/2015/04/20/project-plan</id>
+    <id>http://teamtessie.github.io/blog/2015/04/20/project-plan</id>
     <content type="html"><![CDATA[<p>We had a wonderfully active day on Tuesday, March 31st. Not only did we get a
 more solid idea of our project plan, but we also attended (and in Pilar&rsquo;s case,
 organised) Ruby Habit&rsquo;s meetup, focussing on Git.</p>
@@ -80,13 +80,13 @@ should focus on in particular in order to learn loads over the summer!</p>
   
   <entry>
     <title type="html"><![CDATA[Saturday: Lovebirds and Applications]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/21/saturday-lovebirds-and-applications/"/>
+    <link href="http://teamtessie.github.io/blog/2015/03/21/saturday-lovebirds-and-applications/"/>
     <updated>2015-03-21T16:34:11+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/21/saturday-lovebirds-and-applications</id>
+    <id>http://teamtessie.github.io/blog/2015/03/21/saturday-lovebirds-and-applications</id>
     <content type="html"><![CDATA[<p>Yesterday, Shelly came over to my house, got to meet my parents, my dog and, the newest members of our family,  Boco and Pusheen, whom I had just picked up from a breeder that very morning.</p>
 
 <center>
-<img src="http://teamneko.github.io/images/Saturdaylovebirds/fred.jpg" width="30%" height="30%" hspace="10"> <img src="http://teamneko.github.io/images/Saturdaylovebirds/birbs.jpg" width="30%" height="30%" hspace="10"> </center>
+<img src="http://teamtessie.github.io/images/Saturdaylovebirds/fred.jpg" width="30%" height="30%" hspace="10"> <img src="http://teamtessie.github.io/images/Saturdaylovebirds/birbs.jpg" width="30%" height="30%" hspace="10"> </center>
 
 
 <p>She came mid afternoon and we were able to get a lot done for the team:</p>
@@ -125,9 +125,9 @@ Usually the solution is as follows:</p>
   
   <entry>
     <title type="html"><![CDATA[Starting Javascript]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/20/starting-javascript/"/>
+    <link href="http://teamtessie.github.io/blog/2015/03/20/starting-javascript/"/>
     <updated>2015-03-20T15:41:04+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/20/starting-javascript</id>
+    <id>http://teamtessie.github.io/blog/2015/03/20/starting-javascript</id>
     <content type="html"><![CDATA[<p>After speaking speaking to Jan and Luca,  we learned that the two projects we were interested in pursuing might involve Javascript, or at least we would benefit in knowing Javascript if we were to be involved in either. I had a strong interest in learning Javascript after attending an Angular workshop.</p>
 
 <p>So we took the necessary steps: we got <a href="http://shop.oreilly.com/product/9780596517748.do">JavaScript: The Good Parts</a> and <a href="http://shop.oreilly.com/product/9780596805531.do">JavaScript: The Definitive Guide</a> and we signed up for the codecademy&rsquo;s <a href="http://www.codecademy.com/tracks/javascript">JavaScript course</a> and we faced this thing head on!</p>
@@ -141,7 +141,7 @@ Usually the solution is as follows:</p>
 <p>One a side note: when I got to the operators, I just had to know why the &ldquo;equal to&rdquo; and &ldquo;not equal to&rdquo; operator had one &ldquo;=&rdquo; more than C++. As usual, found a really great and interesting answer on <a href="http://stackoverflow.com/questions/359494/does-it-matter-which-equals-operator-vs-i-use-in-javascript-comparisons">stack overflow</a>, it&rsquo;s pretty interesting if anyone&rsquo;s curious.</p>
 
 <center>
-<img src="http://teamneko.github.io/images/Javascript/MuffinMan.png"> </center>
+<img src="http://teamtessie.github.io/images/Javascript/MuffinMan.png"> </center>
 
 
 <blockquote><p>Did I mention, I had <strong>ridiculous</strong> amounts of fun doing this course?</p></blockquote>
@@ -154,9 +154,9 @@ Usually the solution is as follows:</p>
   
   <entry>
     <title type="html"><![CDATA[A Flood of Good News]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/20/a-flood-of-good-news/"/>
+    <link href="http://teamtessie.github.io/blog/2015/03/20/a-flood-of-good-news/"/>
     <updated>2015-03-20T12:09:16+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/20/a-flood-of-good-news</id>
+    <id>http://teamtessie.github.io/blog/2015/03/20/a-flood-of-good-news</id>
     <content type="html"><![CDATA[<p>We are getting quite a lot of encouraging news already, even though we are only
 in the first stages of things.</p>
 
@@ -203,9 +203,9 @@ wonderful to work with so many enthusiastic, intelligent, and lovely people!</p>
   
   <entry>
     <title type="html"><![CDATA[(octo)Pressing Problems]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems/"/>
+    <link href="http://teamtessie.github.io/blog/2015/03/20/octo-pressing-problems/"/>
     <updated>2015-03-20T00:00:00+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems</id>
+    <id>http://teamtessie.github.io/blog/2015/03/20/octo-pressing-problems</id>
     <content type="html"><![CDATA[<p>One of the most fun learning experiences I’ve had while working on our Summer of Code application is getting to work with <a href="http://octopress.org/">octopress</a>. I had previously used it a little bit for my <a href="http://althaire.github.io/">personal blog</a>, but I’d mostly just made a couple of posts and with some help, I was able to set up a new layout.</p>
 
 <p>Working on our team was a whole new challenge. We agreed that it would be a better learning experience for us as a team that if we ran into any trouble, we’d help each other out.</p>
@@ -217,7 +217,7 @@ wonderful to work with so many enthusiastic, intelligent, and lovely people!</p>
 <p>Naturally, the next morning I just tried the <a href="https://help.github.com/articles/generating-ssh-keys/">basic steps</a> I&rsquo;d been following the day before and&hellip; <em>it worked.</em> Why? We shall never know, it&rsquo;s just one of those things.</p>
 
 <center>
-<img src="http://teamneko.github.io/images/ProblemsPost/codeworksmeme.jpg"> </center>
+<img src="http://teamtessie.github.io/images/ProblemsPost/codeworksmeme.jpg"> </center>
 
 
 <p>The great news was that it worked and I could continue working, right? <strong>Wrong.</strong> I had naïvely thought that I could keep working on the posts I had to do, even without git, because sitting around and waiting for it to fix itself was a huge waste of time.</p>
@@ -233,7 +233,7 @@ wonderful to work with so many enthusiastic, intelligent, and lovely people!</p>
 <p>Just to make sure we don&rsquo;t run into any snags, I made us a little cheat sheet:</p>
 
 <center>
-<img src="http://teamneko.github.io/images/graphics/octopresscheatsheet.png"> </center>
+<img src="http://teamtessie.github.io/images/graphics/octopresscheatsheet.png"> </center>
 
 
 <p>This whole experience brought back memories of solving puzzles as a kid, or getting through a tough dungeon in a Zelda game. I think we just need to keep practising, but it&rsquo;s been a fun experience running into these troubles and having to find solutions.</p>
@@ -244,9 +244,9 @@ wonderful to work with so many enthusiastic, intelligent, and lovely people!</p>
   
   <entry>
     <title type="html"><![CDATA[Vienna.rb #22]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/07/vienna-dot-rb-number-22/"/>
+    <link href="http://teamtessie.github.io/blog/2015/03/07/vienna-dot-rb-number-22/"/>
     <updated>2015-03-07T15:32:20+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/07/vienna-dot-rb-number-22</id>
+    <id>http://teamtessie.github.io/blog/2015/03/07/vienna-dot-rb-number-22</id>
     <content type="html"><![CDATA[<p>Vienna.rb is always quite a fun evening. The first time I (Shelly) went, I went
 alone and promptly squirrelled myself away in a corner to listen to the talks.<br/>
 I needn&rsquo;t have been so nervous! Everyone at vienna.rb is super friendly and welcoming.
@@ -310,9 +310,9 @@ for our upcoming application!</p>
   
   <entry>
     <title type="html"><![CDATA[Our First RGSoC Meeting]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/05/first-meeting/"/>
+    <link href="http://teamtessie.github.io/blog/2015/03/05/first-meeting/"/>
     <updated>2015-03-05T19:31:40+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/05/first-meeting</id>
+    <id>http://teamtessie.github.io/blog/2015/03/05/first-meeting</id>
     <content type="html"><![CDATA[<p>After the hustle and bustle of February (more like getting <a href="http://rubyhabits.github.io">Ruby Habits</a> off the ground) was slowly dying down, we finally took our first step and set up a date for us to sit down and talk about our plans for this year&rsquo;s <a href="http://railsgirlssummerofcode.org">Rails Girls Summer of Code</a>.</p>
 
 <p>I came to the meeting very excited to tell Shelly that I had just seen that <em>Lotus</em> had gotten accepted as a project for RGSoC. I had seen <em>Luca Guidi</em> give a talk on Lotus at a previous Vienna.rb meeting, and I remember thinking at the time,</p>
@@ -326,7 +326,7 @@ for our upcoming application!</p>
 <p>We went with Team Neko as our meting was taking place at Café Neko, the local cat coffeehouse.</p>
 
 <center>
-<img src="http://teamneko.github.io/images/Post1/Luca3.jpg"> 
+<img src="http://teamtessie.github.io/images/Post1/Luca3.jpg"> 
 </center>
 
 

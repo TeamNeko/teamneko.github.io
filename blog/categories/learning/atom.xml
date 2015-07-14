@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: learning | Team Neko]]></title>
-  <link href="http://teamneko.github.io/blog/categories/learning/atom.xml" rel="self"/>
-  <link href="http://teamneko.github.io/"/>
-  <updated>2015-07-06T11:09:47+02:00</updated>
-  <id>http://teamneko.github.io/</id>
+  <title><![CDATA[Category: learning | Team Tessie]]></title>
+  <link href="http://teamtessie.github.io/blog/categories/learning/atom.xml" rel="self"/>
+  <link href="http://teamtessie.github.io/"/>
+  <updated>2015-07-14T12:43:25+02:00</updated>
+  <id>http://teamtessie.github.io/</id>
   <author>
     <name><![CDATA[Shelly Coen and Pilar Huidobro]]></name>
     <email><![CDATA[summeroftessie@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[(octo)Pressing Problems]]></title>
-    <link href="http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems/"/>
+    <link href="http://teamtessie.github.io/blog/2015/03/20/octo-pressing-problems/"/>
     <updated>2015-03-20T00:00:00+01:00</updated>
-    <id>http://teamneko.github.io/blog/2015/03/20/octo-pressing-problems</id>
+    <id>http://teamtessie.github.io/blog/2015/03/20/octo-pressing-problems</id>
     <content type="html"><![CDATA[<p>One of the most fun learning experiences I’ve had while working on our Summer of Code application is getting to work with <a href="http://octopress.org/">octopress</a>. I had previously used it a little bit for my <a href="http://althaire.github.io/">personal blog</a>, but I’d mostly just made a couple of posts and with some help, I was able to set up a new layout.</p>
 
 <p>Working on our team was a whole new challenge. We agreed that it would be a better learning experience for us as a team that if we ran into any trouble, we’d help each other out.</p>
@@ -29,7 +29,7 @@
 <p>Naturally, the next morning I just tried the <a href="https://help.github.com/articles/generating-ssh-keys/">basic steps</a> I&rsquo;d been following the day before and&hellip; <em>it worked.</em> Why? We shall never know, it&rsquo;s just one of those things.</p>
 
 <center>
-<img src="http://teamneko.github.io/images/ProblemsPost/codeworksmeme.jpg"> </center>
+<img src="http://teamtessie.github.io/images/ProblemsPost/codeworksmeme.jpg"> </center>
 
 
 <p>The great news was that it worked and I could continue working, right? <strong>Wrong.</strong> I had naïvely thought that I could keep working on the posts I had to do, even without git, because sitting around and waiting for it to fix itself was a huge waste of time.</p>
@@ -45,7 +45,7 @@
 <p>Just to make sure we don&rsquo;t run into any snags, I made us a little cheat sheet:</p>
 
 <center>
-<img src="http://teamneko.github.io/images/graphics/octopresscheatsheet.png"> </center>
+<img src="http://teamtessie.github.io/images/graphics/octopresscheatsheet.png"> </center>
 
 
 <p>This whole experience brought back memories of solving puzzles as a kid, or getting through a tough dungeon in a Zelda game. I think we just need to keep practising, but it&rsquo;s been a fun experience running into these troubles and having to find solutions.</p>
